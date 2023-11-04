@@ -51,13 +51,12 @@ body {
 @media  screen and (max-width: 600px) {
   .logos:before {
     left: 0;
-    background: nones;
+    background: none;
   }
   
   .logos:after {
     right: 0;
-    background: nones;
+    background: none;
   }
   
- 
 }
