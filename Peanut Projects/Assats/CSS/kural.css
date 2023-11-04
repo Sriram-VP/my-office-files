@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.thirukural_section {
+    height: 340px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2.athigaram {
+    color: white;
+    font-weight: 900;
+    position: relative;
+    top: 15%;
+    text-align: center;
+    margin-left: 11%;
+    color: black;
+}

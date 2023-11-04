@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.justify{
+    text-align:justify;
+}
+.none{
+    list-style-type:none;
+}

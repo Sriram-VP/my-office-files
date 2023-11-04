@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body a {
+    text-decoration: none;
+    color: #212529;
+}
+
+body li {
+    list-style: none;
+}
+
+/*                                                              Section1*/
+.top_nav1 {
+    display: flex;
+    gap: 11px;
+    margin: 7px 0;
+}
+.top_nav1 a{
+   margin: 5px; 
+   font-size: large;
+}
+
+.top_nav {
+    display: flex;
+    gap: 15px;
+    margin: 7px 0;
+    flex-direction: row-reverse;
+}
+
+.top_nav li {
+
+    list-style: none;
+}
+
+.top_nav a {
+    text-decoration: none;
+    color: #212529;
+    position: relative;
+}
+.nav_to_manu a:hover {
+    color: burlywood;
+
+}
+/*                                                            bottom main  nav */
+.navbar-brand {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.navbar {
+    padding-bottom: 55px;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.menu_bar a:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.navbar {
+    padding-bottom: 55px;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+/*                                             section2 */
+.leading_page {
+    color: rgba(33, 25, 22, .4);
+    align-items: center;
+    background: no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    height: 400px;
+    max-height: 300px;
+    mix-blend-mode: multiply;
+    position: relative;
+    width: 100%;
+}
+
+.leading_page:after {
+    background-color: #959393;
+    content: "";
+    inset: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+}
+
+.leading--page:after {
+    content: unset;
+}
+
+.leading__title {
+    vertical-align: baseline;
+    margin-block: auto !important;
+    z-index: 1;
+    color: #fff;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-inline: auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.nav_to_manu {
+    margin: 50px 0;
+}
+
+.nav_to_manu a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+.nav_to_manu a:hover {
+    color: burlywood;
+
+}
+

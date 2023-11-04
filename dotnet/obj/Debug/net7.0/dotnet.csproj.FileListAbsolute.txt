@@ -1,0 +1,15 @@
+e:\Visual Studio code\dotnet\bin\Debug\net7.0\dotnet.exe
+e:\Visual Studio code\dotnet\bin\Debug\net7.0\dotnet.deps.json
+e:\Visual Studio code\dotnet\bin\Debug\net7.0\dotnet.runtimeconfig.json
+e:\Visual Studio code\dotnet\bin\Debug\net7.0\dotnet.dll
+e:\Visual Studio code\dotnet\bin\Debug\net7.0\dotnet.pdb
+e:\Visual Studio code\dotnet\obj\Debug\net7.0\dotnet.csproj.AssemblyReference.cache
+e:\Visual Studio code\dotnet\obj\Debug\net7.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+e:\Visual Studio code\dotnet\obj\Debug\net7.0\dotnet.AssemblyInfoInputs.cache
+e:\Visual Studio code\dotnet\obj\Debug\net7.0\dotnet.AssemblyInfo.cs
+e:\Visual Studio code\dotnet\obj\Debug\net7.0\dotnet.csproj.CoreCompileInputs.cache
+e:\Visual Studio code\dotnet\obj\Debug\net7.0\dotnet.dll
+e:\Visual Studio code\dotnet\obj\Debug\net7.0\refint\dotnet.dll
+e:\Visual Studio code\dotnet\obj\Debug\net7.0\dotnet.pdb
+e:\Visual Studio code\dotnet\obj\Debug\net7.0\dotnet.genruntimeconfig.cache
+e:\Visual Studio code\dotnet\obj\Debug\net7.0\ref\dotnet.dll

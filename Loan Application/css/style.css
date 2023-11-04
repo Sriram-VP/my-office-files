@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+.s1 {
+    color: #001F5F;
+    font-family: "Nirmala UI", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.s2 {
+    color: #001F5F;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.s3 {
+    color: #001F5F;
+    font-family: "Nirmala UI", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 9pt;
+}
+
+.s4 {
+    color: #001F5F;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 9pt;
+}
+
+.s5 {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 9pt;
+}
+
+p {
+    color: black;
+    font-family: "Nirmala UI", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+    margin: 0pt;
+}
+
+.s6 {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.s7 {
+    color: black;
+    font-family: "Nirmala UI", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.s8 {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.s9 {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 11pt;
+}
+
+.s10 {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+h1 {
+    color: black;
+    font-family: "Nirmala UI", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l1 {
+    padding-left: 0pt;
+    counter-reset: c1 1;
+}
+
+#l1>li>*:first-child:before {
+    counter-increment: c1;
+    content: counter(c1, decimal)". ";
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+#l1>li:first-child>*:first-child:before {
+    counter-increment: c1 0;
+}
+
+table,
+tbody {
+    vertical-align: top;
+    overflow: visible;
+}

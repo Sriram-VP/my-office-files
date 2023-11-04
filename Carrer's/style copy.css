@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.background-image{
+    color: rgba(33, 25, 22, .4);
+    align-items: center;
+    background: no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    height: 400px;
+    max-height: 300px;
+    mix-blend-mode: multiply;
+    position: relative;
+    width: 100%;
+}
+
+.container{
+    padding: 50px 0 50px 0;
+    background-color: whitesmoke;
+}
+.Topcard{
+    background-color: white;
+}
+.card-body {
+    font-size: 16px;
+    position: relative;
+}
+
+.in-body{
+    position: absolute;
+    right: 30px;
+}   
+.Career-content {
+    font-size: large;
+    text-align: justify;
+    padding: 20px;
+}
+
+.Topcard{
+    margin-top: 50px;
+}
+.two-cards{
+    margin-top: 50px;
+    color: black;
+}
+
+.card{
+    width:400px;
+    background-color: rgb(213, 213, 213);
+}
+.card:hover {
+    background-color: #073fae;
+    color: white;
+    transition: 0.5s;
+}
+.box{
+    margin-top: 50px;
+}

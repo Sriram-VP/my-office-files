@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body a {
+  text-decoration: none;
+  color: #212529;
+}
+
+body li {
+  list-style: none;
+}
+
+/*                                                              Top-nav */
+.top_nav1 {
+  display: flex;
+  gap: 11px;
+  margin: 7px 0;
+}
+
+.top_nav {
+  display: flex;
+  gap: 15px;
+  margin: 7px 0;
+  flex-direction: row-reverse;
+}
+
+.top_nav li {
+
+  list-style: none;
+}
+
+.top_nav a {
+  text-decoration: none;
+  color: #212529;
+  position: relative;
+}
+
+/*                                                            bottom main  nav */
+.navbar-brand {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.navbar {
+  padding-bottom: 55px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+.menu_bar a:hover {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+.navbar {
+  padding-bottom: 55px;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.carousel_data_1 {
+  background-image: url('../images/home/peanut_closeup.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.carousel_data_2 {
+  background-image: url('../images/home/Cultivation_peanut_2.jpg');
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+.carousel_data_3 {
+  background-image: url('../images/home/Anderson-oilseed.jpg');
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+.bg_text {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: left;
+}
+
+/*                                                              banner */
+.two {
+  padding: 0px;
+}
+
+.two img {
+  width: 100%;
+  height: 485px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*                                                            cards */
+.card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 187px;
+  object-fit: cover;
+}
+.card-header:hover{
+  background-color: darkgoldenrod;
+  color: white;
+}
+/*                                                        thirukural_section  */
+.thirukural_img {
+  height: 380px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kural {
+  padding: 92px 0;
+  color: white;
+}
+
+.athigaram {
+  padding: 0 0 15px 140px;
+  font-weight: 900;
+  color: white;
+}
+
+.tamil_fonts {
+  padding-left: 176px;
+}
+
+.footer-bottom {
+
+  padding: 32px 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .kural {
+    padding: 40px 0px;
+    font-size: 12px;
+  }
+
+  .card {
+    padding-bottom: 5px;
+
+  }
+
+  .top_nav1 {
+    font-size: 13px;
+  }
+
+  .top_nav {
+    padding: 0 47px 0 0px;
+  }
+
+  .footer-bottom {
+    padding: 0;
+
+  }
+}
+@media only screen and (min-width: 700px) {
+  .top_nav1 {
+    font-size: 13px;
+  }
+
+  .footer-bottom {
+    padding: 0;
+
+  }
+
+}
