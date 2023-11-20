@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .waqar {
+            height: 50px;
+            overflow: hidden;
+            position: relative;
+            background: transparent;
+            color: red;
+            border: 1px solid black;
+        }
+        .waqar p {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            line-height: 5px;
+            transform: translateY(100%);
+            animation: waqar 17s linear infinite;
+        }
+        @keyframes waqar {
+            0% {
+                transform: translateY(100%);
+            }
+
+            100% {
+                transform: translateY(-100%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="waqar">
+        <p><b>Listen!</b> if you liked my video then plz support me to subscribe my channel... </p>
+    </div>
+
+
+
+
+</body>
+
+</html>

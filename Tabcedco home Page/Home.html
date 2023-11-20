@@ -7,8 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./Assets/css/home.css">
+  <link href="./Assets/fontawesome-free-6.4.2-web/css/all.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,104 +19,149 @@
       <section id="top_header" class="container-fluid" style="background-color:whitesmoke;">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 text-sm-center">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-sm-center" style="font-size: small;">
               <ul class="main_top_nav1  top_nav ">
-                <li class="top_nav1"><a href="">Government of Tamil Nadu</a> | </li>
-                <li class="top_nav1"></span><a href="">தமிழ்நாடு அரசு</a></li>
+                <li class="top_nav1"><a href="https://www.tn.gov.in/">Government of TamilNadu</a></li>
+                <li class="top_nav1"><span>|</span><a href="https://www.tn.gov.in/ta">தமிழ்நாடு அரசு</a></li>
               </ul>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 text-sm-center">
               <ul class="main_top_nav2 top_nav ">
-                <li><a href="#" class="top_nav2">Sitemap</a></li>
+                <li><i class="fa fa-regular fa-map-location-dot"></i><span style="margin: 5px;"></span><a href="#"
+                    class="top_nav2">Sitemap</a></li>
+                <span></span>
                 <li class="top_nav2"><a href="javascript:void(0);" onclick="set_font_size('decrease')">A-</a></li>
+                <span></span>
                 <li class="top_nav2"><a href="javascript:void(0);" onclick="set_font_size('')">A </a></li>
+                <span></span>
                 <li class="top_nav2"><a href="javascript:void(0);" onclick="set_font_size('increase')">A+</a></li>
-                <li><a id="lang top_nav2" href="javascript:__doPostBack('ctl00$lbtn_tamil_top','')"><i class="fa fa-reply-all"></i> | தமிழ்</a></li>
+                <li><a id="lang top_nav2"><span>|</span> தமிழ்</a></li>
               </ul>
             </div>
           </div>
         </div>
       </section>
-      <section id="mid-header " style="background-color:white">
-        <div class="container-fluid">
-          <div class="container">
-            <div class="logo">
-              <div class="row ">
-                <div class="col logo_main">
-                  <div class="logo_img logo_orgin logo_img1">
-                    <a href="./Home.html" class=""><img src="./Assets/images/logo_en.jpg" alt="logo"></a>
-                  </div>
+      <section id="mid-header" style="background-color:white">
+        <div class="container">
+          <div class="row" style="padding:8px">
+            <div class="col-lg-2 logo rounded mx-auto d-block">
+              <a href="/" title="NBCFDC" class="logo resp">
+                <div><img src="./Assets/images/logo_tab.png" height="100px" class=" rounded mx-auto d-block"
+                    alt="TABCEDCO Logo">
                 </div>
-                <div class="col logo_main">
-                  <div class="logo_img logo_orgin logo_img2">
-                    <a href="" class=""><img src="./Assets/images/TN_Govt_Logo.png" alt="TN_logo"></a>
-                  </div>
-                </div>
+              </a>
+            </div>
+            <div class="col-lg-8 text-center logo">
+              <div>
+                <h3 style="font-family:serif">Tamil Nadu Backward Classes Economic <br>Development Corporation
+                  (TABCEDCO)</h3>
+                <h6 style="font-size:15px!important" class="empowerment">(A Govt. of Tamil Nadu Undertaking)</h6>
               </div>
+            </div>
+            <div class="col-lg-2">
+              <img width="100px" src="./Assets/images/TN_Govt_Logo.png" class=" rounded mx-auto d-block" alt="TN_logo">
             </div>
           </div>
         </div>
       </section>
     </header>
-    <section id="carousel">
-      <section class="section_one">
-        <div class="container-fluid">
-            <div id="carouselFade" class="carousel slide" data-bs-ride="carousel">
+    <section>
+      <div class="container-fluid">
+        <section id="carousel">
+          <section class="section_one">
+            <div class="container-fluid">
+              <div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner Penetimages">
-                    <div class="carousel-item active" data-bs-interval="2000">
-                        <div class="carousel_data_1">
-                            <div class="container">
-                                <div class="bg_text">
-                                    <p style="font-size:36px;">SHARING AUTHORITATIVE INFORMATION<br>AND SUPPLY
-                                        CHAIN EXPERTISE<br>ACROSS THE INDUSTRY.</p>
-                                    <a class="btn btn-outline-light  btn-lg" href="#" role="button">Read More</a>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="carousel-item active" data-bs-interval="2000">
+                    <div class="carousel_data_1">
+                      <a href="" class=""><img src="./Assets/images/home image 2.jpg" alt="TN_logo"></a>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <div class="carousel_data_2">
-                            <div class="container">
-                                <div class="bg_text">
-                                    <p style="font-size:36px;">CONNECTING FARMERS <br>TO MANUFACTURERS AND
-                                        FAMILIES<br>AROUND THE
-                                        GLOBE.</p>
-                                    <a class="btn btn-outline-light  btn-lg" href="#" role="button">Read More</a>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel_data_2">
+                      <a href="" class=""><img src="./Assets/images/home image 3.jpg" alt="TN_logo"></a>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <div class="carousel_data_3">
-                            <div class="container">
-                                <div class="bg_text">
-                                    <p style="font-size:36px;  color: w">CONNECTING FARMERS <br>TO MANUFACTURERS AND
-                                        FAMILIES<br>AROUND THE
-                                        GLOBE.</p>
-                                    <a class="btn btn-outline-light  btn-lg" href="#" role="button">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
+              </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </section>
+        </section>
+      </div>
+    </section>
+    <section>
+      <div class="row container">
+        <div class="col-lg-7 container">
+          <div class="section-title">
+            <h6 class="focusable" tabindex="0">TABCEDCO </h6>
+            <h2 class="focusable" tabindex="0">News<button type="button" class="btn btn-primary btnMore btn-sm">View
+                More</button></h2>
+          </div>
+          <div class="tabPanelBox">
+            <div class="tabPanelBox-slide">
+              <ul>
+                <li><i class="fa fa-regular fa-map-pin fa-beat"></i><SPan style="margin: 5px;"></SPan><a
+                    href="">MANF-Update Aadhar details on Scholarship Fellowship Management Portal MANF-Update Aadhar
+                    details on Scholarship Fellowship Management Portal</a></li>
+                <br>
+                <li><i class="fa fa-regular fa-map-pin fa-beat"></i><SPan style="margin: 5px;"></SPan><a
+                    href="">MANF-Update Aadhar details on Scholarship Fellowship Management Portal MANF-Update Aadhar
+                    details on Scholarship Fellowship Management Portal</a></li>
+                <br>
+                <li><i class="fa fa-regular fa-map-pin fa-beat"></i><SPan style="margin: 5px;"></SPan><a
+                    href="">MANF-Update Aadhar details on Scholarship Fellowship Management Portal MANF-Update Aadhar
+                    details on Scholarship Fellowship Management Portal</a></li>
+                <br>
+                <li><i class="fa fa-regular fa-map-pin fa-beat"></i><SPan style="margin: 5px;"></SPan><a
+                    href="">MANF-Update Aadhar details on Scholarship Fellowship Management Portal MANF-Update Aadhar
+                    details on Scholarship Fellowship Management Portal</a></li>
+                <br>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-lg-4 leaderArea">
+          <div class="leader cell-1 p-4">
+            <div class="leaderdata">
+              <div class="leaderimg"><img
+                  src="./Assets/images/d971ca4cf51445e099353789a35beef7.jpg" alt="Stalin">
+              </div>
+              <div class="leadername text-center ">
+                <h6>Thiru M.K.Stalin</h6>
+                <p>Honorable Chief Minister of Tamilnadu</p>
+              </div>
+            </div>
+          </div>
+          <div class="leader cell-2 p-4">
+            <div class="leaderdata">
+              <div class="leaderimg"><img
+                  src="./Assets/images/d971ca4cf51445e099353789a35beef7.jpg" alt="Stalin">
+              </div>
+              <div class="leadername text-center ">
+                <h6>Thiru R.S.Rajakannappan</h6>
+                <p>Honorable Minister BC Welfare, MBC Welfare & DNC Welfare</p>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
+    <section>
     </section>
   </container>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-        </script>
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-        </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
