@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 150;    
+}
+
+/*                                                    UTILISATION CERTIFICATE  */
+.ucmainheader{
+    text-align:center;
+}
+.ucleft_right{
+    text-align:center;
+    display:flex;
+    justify-content:space-between;
+}
+.uccenter{
+    text-align: center; 
+}
+.ucbordertable table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 160px;
+    font-size: 16px;
+}
+.ucbordertable th{
+    border: 1px solid black;
+    border-collapse: collapse;
+  
+}
+.ucbordertable td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+.tb1{
+    vertical-align: text-top;
+    
+}
+.justify{
+    text-align:justify;
+}

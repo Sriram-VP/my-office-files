@@ -22,6 +22,7 @@ body a {
 .main_top_nav1 {
     justify-content: start;
 }
+
 .main_top_nav2 {
     justify-content: end;
 }
@@ -37,6 +38,7 @@ body a {
     padding-right: 16px;
 
 }
+
 .top_nav2 {
     padding-right: 5px;
 
@@ -47,16 +49,45 @@ body a {
 .logo {
     margin: 24px 5px 1px 5px;
 }
-.logo_img{
+
+.logo_img {
     width: 100px;
     height: 100px;
 }
-.logo_img img{
+
+.logo_img img {
     width: 100%;
 }
+
 .logo_img1 {
     width: 546px;
 }
-.logo_img2{
+
+.logo_img2 {
     width: 100px;
+}
+
+.carousel_data_1 {
+    background-image: url('../images/1200px-TamilNadu_Logo.svg.png');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.carousel_data_2 {
+    background-image: url('../images/home\ image\ 2.jpg');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.carousel_data_3 {
+    background-image: url('../images/home\ image\ 3.jpg');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
 }
