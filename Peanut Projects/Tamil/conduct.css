@@ -10,14 +10,13 @@
     background-size: cover;
     display: flex;
     flex-flow: column;
-    height: 300px;
-    max-height: 300px;
+    height: 500px;
     mix-blend-mode: multiply;
     position: relative;
     width: 100%;
 }
 .leading_page:after {
-    background-color: #959393;
+    background-color: #c8c4c4;
     content: "";
     inset: 0;
     mix-blend-mode: multiply;
@@ -39,7 +38,6 @@
     max-width: 800px;
     text-align: center;
 }
-
 .nav_to_manu{
     margin: 50px 0;
 }
