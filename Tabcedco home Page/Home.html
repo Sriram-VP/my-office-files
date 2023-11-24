@@ -72,113 +72,274 @@
                 </div>
             </section>
             <section>
-                <header style="padding: 0 5px; background-color: whitesmoke;">
-                    <div class="container">
-                        <nav>
-                            <div>
-                                <div class="container">
-                                    <nav class="navbar navbar-expand-lg ">
-                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#navbarSupportedContent"
-                                            aria-controls="navbarSupportedContent" aria-expanded="true"
-                                            aria-label="Toggle navigation">
-                                            <span class="navbar-toggler-icon"></span>
+                <container class="main-container">
+                    <header class="menu__wrapper">
+                        <button aria-label="Open menu" class="burger-menu" type="button" class="btn btn-primary"
+                            type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                            aria-controls="offcanvasWithBothOptions">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M4 8l16 0" />
+                                <path d="M4 16l16 0" />
+                            </svg>
+                        </button>
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+
+                            </div>
+                        </div>
+                        <div class="container">
+                            <nav class="d-flex justify-content-center m-auto">
+                                <ul class="navigation hide">
+                                    <li>
+                                        <button class="nav-link active">
+                                            Home
                                         </button>
-                                        <div class="collapse navbar-collapse justify-content-center m-auto "
-                                            id="navbarSupportedContent">
-                                            <ul class="navbar-nav">
-                                                <li class="nav-item menu_bar">
-                                                    <a class="nav-link active" href="/Home.html">Home</a>
-                                                </li>
-                                                <li class="nav-item  menu_bar dropdown ">
-                                                    <a class="nav-link active dropdown-toggle" role="button"
-                                                        data-bs-toggle="dropdown">
-                                                        About Us
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="">Objective</a></li>
-                                                        <li><a class="dropdown-item" href="">Organization</a></li>
-                                                        <li><a class="dropdown-item" href="">Organogram</a></li>
-                                                        <li><a class="dropdown-item" href="">Board of Directors</a></li>
-                                                        <li><a class="dropdown-item" href="">Committees</a></li>
-                                                        <li><a class="dropdown-item" href="">CSR Policy</a></li>
-                                                        <li>
-                                                    </ul>
-                                                </li>
-                                                <li class="nav-item  menu_bar dropdown ">
-                                                    <a class="nav-link active dropdown-toggle" role="button"
-                                                        data-bs-toggle="dropdown">
-                                                        Loan Schemes
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="">General Term Loan</a></li>
-                                                        <li><a class="dropdown-item" href="">Loan Schemes for Women</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item" href="">Micro Credit Scheme for
-                                                                Men</a></li>
-                                                        <li><a class="dropdown-item" href="">Milch Animal Scheme</a>
-                                                        </li>
-                                                        <li>
-                                                    </ul>
-                                                </li>
-                                                <li class="nav-item  menu_bar dropdown ">
-                                                    <a class="nav-link active dropdown-toggle" role="button"
-                                                        data-bs-toggle="dropdown">
-                                                        Loan Details
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="">Eligibilty and Application
-                                                                Mode</a></li>
-                                                        <li><a class="dropdown-item" href="">Loan Sanction</a></li>
-                                                        <li><a class="dropdown-item" href="">Application Form</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="nav-item  menu_bar ">
-                                                    <a class="nav-link active" role="button">
-                                                        NBCFDC
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item  menu_bar dropdown ">
-                                                    <a class="nav-link active dropdown-toggle" role="button"
-                                                        data-bs-toggle="dropdown">
-                                                        Informations
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="">Right to Information
-                                                                (RTI)</a></li>
-                                                        <li><a class="dropdown-item" href="">CSR Activities</a></li>
-                                                        <li><a class="dropdown-item" href="">Photo Gallery</a></li>
-                                                        <li><a class="dropdown-item" href="">Reports</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="nav-item  menu_bar dropdown ">
-                                                    <a class="nav-link active dropdown-toggle" role="button"
-                                                        data-bs-toggle="dropdown">
-                                                        District Office
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="">DBCMWO Office</a></li>
-                                                        <li><a class="dropdown-item" href="">Joint Registrar Office</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item" href="">Contact Us </a></li>
-                                                        <li><a class="dropdown-item" href="">Officer Login</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="nav-item menu_bar">
-                                                    <a class="nav-link active" href="">Apply Online </a>
-                                                </li>
-                                                <li class="nav-item menu_bar">
-                                                    <a class="nav-link active" href="">Contact Us</a>
-                                                </li>
-                                                <li class="nav-item menu_bar">
-                                                    <a class="nav-link active" href="">Officer Login</a>
-                                                </li>
-                                            </ul>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            About Us
+                                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1"
+                                                width="16">
+                                                <path
+                                                    d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                        <div class="dropdown__wrapper">
+                                            <div class="dropdown">
+                                                <ul class="list-items-with-description">
+                                                    <li>
+                                                        <div class="item-title">
+                                                            <h3>Objective</h3>
+                                                            <p>OBJECTIVE OF TABCEDCO</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+
+                                                        <div class="item-title">
+                                                            <h3>Organization</h3>
+                                                            <p>ABOUT TABCEDCO</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+
+                                                        <div class="item-title">
+                                                            <h3>Organogram</h3>
+                                                            <p>ORGANOGRAM OF TABCEDCO</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+
+                                                        <div class="item-title">
+                                                            <h3>Board of Directors</h3>
+                                                            <p>Board of Directors of TABCEDCO</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+
+                                                        <div class="item-title">
+                                                            <h3>Committees</h3>
+                                                            <p>COMMITTEE MEMBERS OF TABCEDCO </p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="item-title">
+                                                            <h3>CSR Policy</h3>
+                                                            <p>CORPORATE SOCIAL RESPONSIBILITY(CSR) POLICY</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                </div>
-                        </nav>
-                    </div>
-                </header>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            Loan Schemes
+                                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1"
+                                                width="16">
+                                                <path
+                                                    d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                        <div class="dropdown__wrapper">
+                                            <div class="dropdown">
+                                                <ul class="list-items-with-description">
+                                                    <li>
+                                                        <div class="item-title">
+                                                            <h3>General Term Loan-(GTL)</h3>
+                                                            <p>Loans for Individuals</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+
+                                                        <div class="item-title">
+                                                            <h3>Loan Schemes for Womens-(NSS,MSY)</h3>
+                                                            <p>Loans for Individual Womens / Women Self Help Groups</p>
+                                                            <p></p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+
+                                                        <div class="item-title">
+                                                            <h3>Loan Scheme for Men-(MSR)</h3>
+                                                            <p>Loans for Men Self Help Groups</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="item-title">
+                                                            <h3>Milch Animal Scheme-(Aavin)</h3>
+                                                            <p>Loans for Milch Animal</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            Loan Details
+                                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1"
+                                                width="16">
+                                                <path
+                                                    d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                        <div class="dropdown__wrapper">
+                                            <div class="dropdown">
+                                                <ul class="list-items-with-description">
+                                                    <li>
+                                                        <div class="item-title">
+                                                            <h3 style="white-space: nowrap;">Eligibilty and Application
+                                                            </h3>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+
+                                                        <div class="item-title">
+                                                            <h3 style="white-space: nowrap;">Loan Sanction</h3>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+
+                                                        <div class="item-title">
+                                                            <h3 style="white-space: nowrap;">Eligibilty and Application
+                                                                Mode</h3>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="nav-link active">
+                                            NBCFDC
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            Informations
+                                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1"
+                                                width="16">
+                                                <path
+                                                    d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                        <div class="dropdown__wrapper">
+                                            <div class="dropdown">
+                                                <ul class="list-items-with-description">
+                                                    <li>
+                                                        <div class="item-title">
+                                                            <h3>Right to Information (RTI)</h3>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+
+                                                        <div class="item-title">
+                                                            <h3>CSR Activities</h3>
+                                                            <p></p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="item-title">
+                                                            <h3>Photo Gallery</h3>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="item-title">
+                                                            <h3>Reports</h3>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            District Office
+                                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1"
+                                                width="16">
+                                                <path
+                                                    d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                        <div class="dropdown__wrapper">
+                                            <div class="dropdown">
+                                                <ul class="list-items-with-description">
+                                                    <li>
+                                                        <div class="item-title">
+                                                            <h3>DBCMWO Office</h3>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+
+                                                        <div class="item-title">
+                                                            <h3>Joint Registrar Office</h3>
+                                                            <p></p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="item-title">
+                                                            <h3>Officer</h3>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="nav-link ">
+                                            Contact Us
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="nav-link ">
+                                            Officer Login
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="nav-link ">
+                                            online service
+                                        </button>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
+                </container>
             </section>
         </header>
         <section>
@@ -288,8 +449,8 @@
                         <div class="text-center" style="margin-top: 6px;">
                             <h2 class="focusable" tabindex="0">
                                 # ONLINE LOAN APPLICATION PORTAL </h2>
-                            <a title="Schemes" href=""
-                                class="custom-button mt-3">Find Schemes For You <i class="fa fa-arrow-right"></i></a>
+                            <a title="Schemes" href="" class="custom-button mt-3">Find Schemes For You <i
+                                    class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -305,7 +466,8 @@
                                     target="_blank">
                                     <div class="row">
                                         <div class="col col-2">
-                                            <img src="./Assets/images/1200px-TamilNadu_Logo.svg.png" style="width:50px; height:50px;">
+                                            <img src="./Assets/images/1200px-TamilNadu_Logo.svg.png"
+                                                style="width:50px; height:50px;">
                                         </div>
                                         <div class="col col-10 font-weight-bold" style="padding-top:13px;">
                                             Government of Tamilnadu
@@ -333,7 +495,8 @@
                                     target="_blank">
                                     <div class="row">
                                         <div class="col col-2">
-                                            <img src="./Assets/images/pngwing.com (10).png" style="width:75px; height:50px;">
+                                            <img src="./Assets/images/pngwing.com (10).png"
+                                                style="width:75px; height:50px;">
                                         </div>
                                         <div class="col col-10 font-weight-bold" style="padding-top:13px;">
                                             Government of India
@@ -347,7 +510,7 @@
                 </div>
         </section>
     </container>
-    <footer  style=" background-color: whitesmoke;">
+    <footer style=" background-color: whitesmoke;">
         <div class="container p-5" style=" background-color: whitesmoke;">
             <div class="row">
                 <div class="col-md-2">

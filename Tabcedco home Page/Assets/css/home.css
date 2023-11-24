@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     --primary: #000000;
     --background: #FAFAFA;
@@ -19,10 +18,12 @@
     --navbar-height: 64px;
 }
 
+
 /*                                                         Body */
 body ul {
     list-style: none;
 }
+
 
 body a {
     text-decoration: none;
@@ -87,6 +88,182 @@ body a:hover {
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+/*                                                                                            menu__bar */
+.menu__wrapper {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    gap: 24px;
+    background-color: var(--background);
+    height: var(--navbar-height);
+    padding: 0px 16px;
+    align-items: center;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.menu__bar {
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--background);
+}
+.navigation>ul{
+    padding: 0 !important;
+}
+.navigation>li {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    min-height: 36px;
+    padding-left: 0;
+}
+
+.navigation>li>button {
+    color: var(--link-gray);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    margin-right: -4px;
+    align-items: center;
+    min-height: 36px;
+    font-size: 14px;
+    gap: 4px;
+    font-family: 'Open Sans', sans-serif;
+    flex-wrap: nowrap;
+    border-radius: 999px;
+    padding: 4px 10px;
+    white-space: nowrap;
+    background: none;
+    display: flex;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.navigation>li:hover>button svg {
+    fill: var(--link-gray-hover);
+    rotate: 180deg;
+}
+.navigation>li:hover>button {
+    color: var(--link-gray-hover);
+    background-color:  #b4d9f4;
+}
+
+.navigation>li:hover .dropdown {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.99) translateY(-0.7em);
+        transform-origin: top;
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* dropdown menu */
+.dropdown__wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 60px;
+}
+.dropdown {
+    border-radius: 8px;
+    background-color: var(--white);
+    display: none;
+    padding: 8px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid  #b4d9f4;
+    box-shadow:
+        0 50px 100px -20px rgba(0, 0, 0, .12),
+        0 30px 60px -30px rgba(0, 0, 0, .15);
+    z-index: 2;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+.list-items-with-description {
+    list-style-type: none;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+.list-items-with-description li {
+    display: flex;
+    padding: 8px;
+    gap: 16px;
+    width: 100%;
+}
+
+.list-items-with-description li:hover {
+    background-color:  #b4d9f4;
+    border-radius: 6px;
+}
+
+
+.item-title h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--link-gray-hover);
+    white-space: nowrap;
+}
+
+.item-title p {
+    font-size: 12px;
+    white-space: nowrap;
+    color: var(--link-gray);
+}
+
+.burger-menu {
+    display: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+@media (max-width: 900px) {
+    .hide {
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        height: 32px;
+        width: 32px;
+        min-width: 32px;
+        min-height: 32px;
+        pointer-events: all;
+        gap: 4px;
+        flex-direction: column;
+        border: 1px solid var(--gray-border);
+    }
+
+    .burger-menu svg {
+        height: 20px;
+        stroke: var(--link-gray);
+        width: 20px;
+    }
 }
 
 .menu_bar{
