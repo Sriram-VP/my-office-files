@@ -142,3 +142,20 @@ span{
 .justify{
     text-align:justify;
 }
+/*                                   Gtl Application */
+
+.gtlmainheader{
+    text-align:center;
+}
+.gtlleft_right{
+    text-align:center;
+    display:flex;
+    justify-content:space-between;
+}
+
+.justify{
+    text-align:justify;
+}
+.right{
+    text-align: right;
+}
