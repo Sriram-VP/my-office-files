@@ -1,8 +1,55 @@
-<div class="mid-header" style="">
-      <div class="homebanner">
-        <img src="assets/Images/" alt="LOGO">
-        <div></div>
-        <div></div>
-        <div></div>
+<div class="mid_header">
+  <div class="homebanner">
+    <div class="homebanner_img">
+    </div>
+    <div class="homebanner_form">
+      <div class="queryforms" style="text-align: center;">
+        <h3>Get Your Quote</h3>
+        <div class="formlist">
+          <mat-form-field>
+            <mat-label>Input</mat-label>
+            <input matInput>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Mobile No </mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
+        <mat-form-field style="width: 100%;">
+          <input type="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+            placeholder="Email ID">
+          @if (emailFormControl.hasError('email') && !emailFormControl.hasError('required')) {
+          <mat-error>Please enter a valid email address</mat-error>
+          }
+          @if (emailFormControl.hasError('required')) {
+          <mat-error>Email is <strong>required</strong></mat-error>
+          }
+        </mat-form-field>
+        <mat-form-field style="width: 100%;">
+          <mat-label>Events</mat-label>
+          <mat-select>
+            <mat-option value=1>Marriage Catering</mat-option>
+            <mat-option value=2>Private party catering</mat-option>
+            <mat-option value=3>Special family function</mat-option>
+            <mat-option value=4>Corporate catering</mat-option>
+            <mat-option value=5>Birthday Party</mat-option>
+            <mat-option value=6>House Warming Functions</mat-option>
+            <mat-option value=7>Brahmin Wedding</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field style="width: 100%;">
+          <mat-label>Packages</mat-label>
+          <mat-select>
+            <mat-option data-display="Packages" value="" disabled="" selected=""></mat-option>
+            <mat-option value="Less than 100">Less than 100</mat-option>
+            <mat-option value="101 - 200">101 - 200</mat-option>
+            <mat-option value="201 - 300">301 - 500</mat-option>
+            <mat-option value="501 - 1000">501 - 1000</mat-option>
+            <mat-option value="Above 1000">Above 1000</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <button mat-stroked-button color="accent">Submit</button>
       </div>
+    </div>
+  </div>
 </div>
